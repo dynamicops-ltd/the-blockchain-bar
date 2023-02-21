@@ -1,10 +1,10 @@
 package node
 
 import (
-	"net/http"
 	"encoding/json"
-	"io/ioutil"
 	"fmt"
+	"io/ioutil"
+	"net/http"
 )
 
 func writeErrRes(w http.ResponseWriter, err error) {
